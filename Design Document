@@ -1,0 +1,168 @@
+Luke Mitchell
+CS 7-8 Per.1
+
+Design Document
+
+License 
+Credit to Alec Markarian and Benjamin Stanley. They did work so I didn’t have to.   
+
+    Overview
+      Theme / Setting / Genre
+      Core Gameplay Mechanics Brief
+      Targeted platforms
+      Project Scope
+      Influences (Brief)
+        - Gauntlet
+        - Mortal Kombat
+        - Legend of Zelda
+      The elevator Pitch
+      Project Description:
+    What sets this project apart?
+      Core Gameplay Mechanics (Detailed)
+        - Interesting battle elements
+        - Leveling up
+        - Weapons and spells
+     Story 
+    Assets Needed
+      - 2D
+      - 3D
+      - Sound
+      - Animation
+    Schedule
+      - Learn Java
+      - Understand LibGDX
+      - Get character class usable
+      - All Menus usable
+      - Levels
+      - Enemies
+
+
+Overview
+
+Theme / Setting / Genre
+	- To Be Determined
+  Core Gameplay Mechanics Brief
+    - Local Multiplayer Role Playing Game
+    - Isometric level design
+   	- Combat based on combinations and special powers and usage of weapons
+  	-Controlled through gamepad (Xbox, PS3, Steam controller, etc) or possibly with keyboard and mouse 
+  Targeted platforms
+    PC
+Project Scope 
+	- Game Time Scale
+		-Aim is for production taking fewer than ten months
+- Team Size
+	- Sole programmer, director, producer, etc is Luke Mitchell
+		
+Influences (Brief)
+	- Gauntlet
+		- Many game elements, such as how the multiplayer will function will be influenced by the Gauntlet series(Nes, N64). The feature of openable chests with weapons or upgrades applicable to only the opener will likely be featured in the game.
+	- Mortal Kombat
+		- The combat in the game will ideally resemble something similar to that of Mortal kombat(Arcade, SNES, N64). I want the combat to feel satisfying, easy to begin with but hard to master. I want the game to be sort of rapid, with many enemies on the screen and the combat to quickly take care of them.
+  - Legend of Zelda
+		-The plot of Legend of Zelda(NES) is an inspiration for the direction I would like the game to head. I would like the players to feel unified in a general wish to progress, working toward a common goal and not just playing directionless dungeons. The item system of this game is another possibility for my product, less spread out but still secretive.
+
+The elevator Pitch
+  - An exciting quest through a fantasy world a player can trek through alone or with friends. They’ll fight monsters and demons with a quick, combo-based combat system, with upgradeable stats and weapons. 
+
+Project Description:
+	- An open, multiplayer adventure. The player or players must battle through levels filled with hellish nightmare creatures on their quest to defeat an evil wizard casting spells on the kingdom. Each player has the choice of being a warrior, cleric, ogre, or a combat mage. Each character has a different set of base stats. But as players progress through the game, they will level up based on experience gained through enemies slain and feats achieved. Each level increase allows choosing specific stats the player would like increased at the end of each stage. The characters will have to collaborate to reach a common goal, while also fighting over chests with items and gold.
+	
+What sets this project apart?
+	- Satisfying, involved combat
+	- Fun multiplayer
+	- Isometric, attractive art style
+	- Interesting , plot-driven progression
+Core Gameplay Mechanics (Detailed)
+- Exciting battles
+		- The players will be working side by side against enemies as they progress through levels. The combat will likely feature spellcasting, weapon use, hand to hand combat, and item use.
+	- Level-up
+		- At the end of each level, the players will be prompted with a screen to decide what stats they would like increased if they had at least one level increase in that stage.
+	- Weapons and spells
+		- The players can find weapons in chests throughout levels, as well as spellbooks that teach individual spells. The players can choose or choose not to trade or give weapons and spells to other players. The gold found in the action stages can be spent at shops and similarly, the weapons and spellbooks can be sold for gold.
+
+
+
+Story
+
+There exists in the kingdom an evil wizard. He has been casting spells of darkness and sorrow on the towns surrounding his castle. The team of valiant fighters decides to set out from their town in search of the wizard. They must defeat him to bring light, prosperity and joy back to their world.
+
+
+Assets Needed
+
+- 2D
+	- Textures
+		- The bulk of the game will take place in the various levels and areas in and around the wizard’s castle. Aside from the castle, the player/s will also be able to travel to and from their town to gain information, buy and sell weapons and spells.
+
+- 3D
+	- Characters List
+		- Warrior
+		- Cleric
+		- Combat Mage
+		- Ogre
+		- Various enemies
+	- Environmental Art Lists
+		- Scenery in castle, town, surrounding areas
+		
+- Sound
+	- Sound List (Ambient)
+		- Outside
+			- Town noises
+		- Inside
+			- Eerie background noise in castle
+			- Forest noise
+
+  - Sound List (Player)
+  	- Character Movement Sound List
+  	  - Footstep sound for all playable character 
+  		- Character Hit / Collision Sound list
+    - Sounds for weapons hitting enemies
+  			- Different sounds for different spells
+  		- Character on Injured / Death sound list
+  			- Pain sound (grunts) upon being killed
+- Animation
+	- Environment Animations 
+		- Flame animation in castle
+	- Character Animations 
+		- Player
+      - Running, walking animations
+      - Different character animations for spells, each item and weapon
+      - Animations for spells themselves
+  	- NPC
+      - Walking/pacing
+
+Schedule
+	- Learn Java
+		- Complete intro to java course by October
+    - Be able to code through at least a couple early packets of  3-4 class material
+      
+	- Install and get acquainted with LibGDX and Tiled
+     - I aim to be ready to get to the bulk of the game coding by mid-October
+     - Construct a map with Tiled, understand how to quickly design and create the kinds of levels I want 
+     - Be comfortable with taking in and using gamepad controllers to manipulate the character.
+      
+	- Create Character template, be able to fully manipulate, attack, etc
+		- Be done with character framework by mid-November
+		- Character can move
+    - Character can attack and have attacks land and do something
+    
+	- Level-up, inventory and shop screens
+		- Be done with all menus by mid-December
+    - Tracking stats, experience, items, etc for each person through each level
+    - Create an intuitive inventory for the player that doesn’t disrupt gameplay
+    - Create a simple buy-sell shop menu
+    
+	- Levels
+		- Be done with all levels by mid-January
+		- Create town in Tiled
+		- Create all levels of castle
+		
+  - Enemies
+		- Be done with all enemy types by April
+		- Create simple ai ground enemies
+		- Create larger, stronger ai enemies
+		- Final boss
+ 
+
+
+
